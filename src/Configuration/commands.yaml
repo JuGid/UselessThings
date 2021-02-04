@@ -1,0 +1,4 @@
+commands:
+  namespace: 'UselessThings\Commands'
+  to_load:
+    start: 'RunCommand'

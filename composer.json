@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/console": "^5.2",
+        "php-school/cli-menu": "^4.1",
+        "symfony/yaml": "^5.2"
+    },
+    "autoload": {
+     "psr-4": {
+      "UselessThings\\": "src"
+     },
+     "classmap": ["src"]
+     }
+}

@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/src/bootstrap.php';
+
+use Symfony\Component\Console\Application;
+use UselessThings\Configuration\CommandsLoader;
+use Symfony\Component\Console\Style\SymfonyStyle;
+
+$app = new Application('uthings', 'v0.0.1');
+$app->setCommandLoader(CommandsLoader::getCommands());
+$app -> run();
